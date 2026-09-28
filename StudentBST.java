@@ -62,6 +62,7 @@ public class StudentBST {
 
                     current.right =
                             new Node(student);
+                            
 
                     return true;
                 }
