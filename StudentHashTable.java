@@ -21,7 +21,8 @@ public class StudentHashTable {
                 studentId.toLowerCase()
                         .hashCode())
                 % tableSize;
-    }
+    }  
+    
 
     public boolean insert(Student student) {
 
@@ -86,6 +87,7 @@ public class StudentHashTable {
 
         return null;
     }
+
 
     public boolean delete(String id) {
 
