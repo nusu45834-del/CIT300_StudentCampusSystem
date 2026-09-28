@@ -4,9 +4,11 @@ public class ActionStack {
     private int top;
     private int maxSize;
 
+
+    
     public ActionStack(int size) {
 
-        maxSize = size;
+        maxSize = size;  
         stack = new String[maxSize];
         top = -1;
     }

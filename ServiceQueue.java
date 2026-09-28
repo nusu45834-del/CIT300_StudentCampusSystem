@@ -6,6 +6,8 @@ public class ServiceQueue {
     private int nItems;
     private int maxSize;
 
+
+    
     public ServiceQueue(int size) {
 
         maxSize = size;
@@ -13,7 +15,7 @@ public class ServiceQueue {
 
         front = 0;
         rear = -1;
-        nItems = 0;
+        nItems = 0;  
     }
 
     public boolean isEmpty() {
