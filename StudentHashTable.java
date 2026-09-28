@@ -9,7 +9,7 @@ public class StudentHashTable {
         tableSize = size;
 
         table =
-                new Student[tableSize];   
+                new Student[tableSize];
 
         deleted =
                 new boolean[tableSize];
