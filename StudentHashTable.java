@@ -24,6 +24,7 @@ public class StudentHashTable {
     }  
     
 
+    
     public boolean insert(Student student) {
 
         int index =
