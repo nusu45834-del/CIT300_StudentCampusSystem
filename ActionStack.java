@@ -8,7 +8,7 @@ public class ActionStack {
     
     public ActionStack(int size) {
 
-        maxSize = size;
+        maxSize = size;  
         stack = new String[maxSize];
         top = -1;
     }

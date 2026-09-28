@@ -15,7 +15,7 @@ public class ServiceQueue {
 
         front = 0;
         rear = -1;
-        nItems = 0;
+        nItems = 0;  
     }
 
     public boolean isEmpty() {
