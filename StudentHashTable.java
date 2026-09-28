@@ -21,10 +21,7 @@ public class StudentHashTable {
                 studentId.toLowerCase()
                         .hashCode())
                 % tableSize;
-    }  
-    
-
-    
+    }    
     public boolean insert(Student student) {
 
         int index =

@@ -9,7 +9,7 @@ public class StudentLinkedList {
             this.student = student;
             this.next = null;
         }
-    }
+    }   
      
 
     
